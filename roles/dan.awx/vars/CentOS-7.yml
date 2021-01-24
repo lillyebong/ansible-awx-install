@@ -1,0 +1,12 @@
+## roles/ansible-role-awx/vars/CentOS-7.yml
+# vim:ft=yaml.ansible:
+---
+awx_python_interpreter: python3
+awx_package_dependencies:
+  - git
+  - python3-pip
+  - ansible
+  - docker
+  - libselinux-python3
+  - python3-setuptools
+...

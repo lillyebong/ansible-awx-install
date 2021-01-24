@@ -1,0 +1,8 @@
+---
+- hosts: test
+  gather_facts: True
+  connection: local
+  remote_user: daniel
+  become: True
+  roles:
+    - dan.awx
